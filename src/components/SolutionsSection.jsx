@@ -1,7 +1,7 @@
 import { Phone, MessageSquare, Globe, BarChart3, Plug } from 'lucide-react';
 
 const FeatureCard = ({ icon: Icon, title, description }) => (
-  <div className="group rounded-xl border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition-colors">
+  <div className="group rounded-xl border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
     <div className="flex items-center gap-3">
       <div className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-violet-500/20 text-violet-300">
         <Icon className="h-5 w-5" />
